@@ -12,7 +12,7 @@ con.execute("CREATE INDEX IF NOT EXISTS the_index ON main (key, value)")
 con.execute("CREATE TABLE IF NOT EXISTS poll_users (user INT, vote INT);")
 con.execute("CREATE TABLE IF NOT EXISTS poll_options (id INT, option TEXT);")
 
-org_channel = "392057195530813453"
+org_channel = "1168961258574323766"
 
 client = discord.Client()
 
