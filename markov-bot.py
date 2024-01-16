@@ -14,7 +14,7 @@ con.execute("CREATE TABLE IF NOT EXISTS poll_options (id INT, option TEXT);")
 
 org_channel = "1168961258574323766"
 
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.all())
 
 def allowed(x):
   if x == "🛑": return False
