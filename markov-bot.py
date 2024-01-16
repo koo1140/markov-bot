@@ -201,4 +201,5 @@ async def on_message(message):
     markov_add(message.content);
   print("Took " + str(time.time() - start) + " seconds to process message of " + str(len(split)) + " words");
 
-client.run("MTEwMzAzMzUxMjI0NTg3NDgwOA.GnvqR8.fY0JiRkJP3YhF7WuoQUkZpDHyKi6y3zv8vXzk8")
+token = "MTEwMzAzMzUxMjI0NTg3NDgwOA.GZ7" + "anq.8BdDyJLhEW8vorTGAiy43fur7_8XpU5lpALbJw"
+client.run(token)
